@@ -7,7 +7,7 @@ app.get('/app', (req, res) => {
   const userAgent = req.headers['user-agent'].toLowerCase();
 
   if (userAgent.includes('android')) {
-    return res.redirect('https://google.com');
+    return res.redirect('https://play.google.com/store/apps/details?id=com.ante3101.Gricko');
   }
 
   if (userAgent.includes('iphone') || userAgent.includes('ipad') || userAgent.includes('ipod')) {
