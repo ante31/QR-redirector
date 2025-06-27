@@ -11,7 +11,7 @@ app.get('/app', (req, res) => {
   }
 
   if (userAgent.includes('iphone') || userAgent.includes('ipad') || userAgent.includes('ipod')) {
-    return res.redirect('https://www.apple.com/app-store/');
+    return res.redirect('https://apps.apple.com/us/app/gricko/id6745101950');
   }
 
   // Fallback for unknown or desktop users
